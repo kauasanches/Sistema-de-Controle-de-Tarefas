@@ -36,6 +36,11 @@ Muitas vezes precisamos de um controle de tarefas local, sem depender de aplicat
 
 ### 1. Compile o código:
 
-gcc -o taskman main.c
+`gcc -o taskman main.c`
 
 ### 2. Execute o programa:
+
+`./taskman`
+
+## 🧠 Observações
+
