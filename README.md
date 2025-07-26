@@ -42,8 +42,18 @@ Muitas vezes precisamos de um controle de tarefas local, sem depender de aplicat
 
 `./taskman`
 
+---
+
 ## 🧠 Observações
 
 - O arquivo `tarefas.txt` armazena as tarefas no formato:
+
 `1|Comprar pão|Ir à padaria|0
 2|Estudar C|Fazer exercícios|1`
+
+---
+
+## 📌 Autor
+
+Desenvolvido por Kauã Sanches
+Feito com foco em aprendizado, organização e prática de linguagem C
