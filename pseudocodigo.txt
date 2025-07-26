@@ -1,0 +1,64 @@
+INÍCIO
+
+    DEFINIR estrutura Tarefa:
+        - título (string)
+        - descrição (string)
+        - concluída (inteiro: 0 ou 1)
+
+    CRIAR lista de tarefas (array)
+    DEFINIR variável totalTarefas = 0
+
+    CARREGAR tarefas do arquivo "tarefas.txt" para a lista
+
+    REPETIR até o usuário escolher sair:
+        LIMPAR a tela
+        EXIBIR menu:
+            1. Adicionar tarefa
+            2. Editar tarefa
+            3. Visualizar todas as tarefas
+            4. Excluir tarefa
+            5. Marcar tarefa como concluída
+            6. Visualizar apenas concluídas
+            0. Sair
+
+        LER a opção digitada
+
+        CASO a opção seja:
+            1 → ADICIONAR nova tarefa:
+                - Ler título e descrição
+                - Definir concluída = 0
+                - Adicionar na lista
+                - Atualizar totalTarefas
+                - SALVAR lista no arquivo
+
+            2 → EDITAR tarefa:
+                - Mostrar lista numerada
+                - Ler número da tarefa
+                - Atualizar título, descrição e status
+                - SALVAR lista no arquivo
+
+            3 → VISUALIZAR todas as tarefas:
+                - Mostrar todas as tarefas com título, descrição e status
+
+            4 → EXCLUIR tarefa:
+                - Mostrar lista
+                - Ler número
+                - Remover da lista
+                - Reduzir totalTarefas
+                - SALVAR lista no arquivo
+
+            5 → MARCAR como concluída:
+                - Mostrar lista
+                - Ler número
+                - Alterar campo "concluída" para 1
+                - SALVAR lista no arquivo
+
+            6 → VISUALIZAR apenas concluídas:
+                - Percorrer lista e mostrar apenas tarefas com concluída = 1
+
+            0 → SAIR do programa:
+                - Encerrar loop
+
+            OUTRA → Exibir mensagem de opção inválida
+
+    FIM
