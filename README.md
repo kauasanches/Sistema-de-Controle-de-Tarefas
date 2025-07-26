@@ -1,40 +1,41 @@
-# TaskMan – Gerenciador de Tarefas em Python 🗂️✅
+# TaskMan (C) – Gerenciador de Tarefas no Terminal 📋💻
 
-**TaskMan** é um gerenciador de tarefas simples, visual e eficiente, desenvolvido com Python e `customtkinter`, com foco em usabilidade, estilo escuro moderno e persistência de dados em arquivo.
+**TaskMan** é um sistema simples e funcional de gerenciamento de tarefas feito em linguagem C, com menu interativo via terminal.
 
 ---
 
 ## ❓ Problema
 
-Muitas pessoas precisam de um sistema leve, funcional e que permita:
-- Cadastrar, editar, excluir e marcar tarefas
-- Visualizar o que já foi concluído
-- Manter as tarefas salvas entre sessões
-- Usar sem internet, direto do PC
-
-A maioria das soluções atuais é pesada, exige conta ou conexão com a nuvem.
+Muitas vezes precisamos de um controle de tarefas local, sem depender de aplicativos pesados, internet ou interfaces complexas. Algo leve, direto e funcional.
 
 ---
 
 ## 💡 Solução
 
-O **TaskMan** resolve isso com:
-- Uma interface moderna com botões arredondados, ícones reais e paleta escura
-- Um sistema persistente via arquivo `tarefas.txt`
-- Exibição clara das tarefas pendentes e concluídas
-- Lista clicável para selecionar e interagir com tarefas
-- Código aberto e leve, fácil de entender e melhorar
+**TaskMan** oferece:
+- Adição, edição, exclusão e visualização de tarefas
+- Marcação de tarefas como concluídas
+- Armazenamento persistente em arquivo `.txt`
+- Menu intuitivo no terminal
+- Código em C puro, fácil de compilar e entender
 
 ---
 
-## ▶️ Como rodar o projeto
+## ⚙️ Funcionalidades
 
-### 📦 Requisitos:
+- 📌 Adicionar novas tarefas
+- ✏️ Editar título e descrição
+- ✅ Marcar como concluída
+- 🗑️ Excluir tarefas
+- 🔍 Filtrar tarefas concluídas
+- 💾 Gravar e carregar tarefas em `tarefas.txt`
 
-- Python 3.8+
-- Pip (gerenciador de pacotes do Python)
+---
 
-### 📥 Instale as dependências:
+## ▶️ Como compilar e rodar
 
-```bash
-pip install customtkinter pillow
+### 1. Compile o código:
+
+gcc -o taskman main.c
+
+### 2. Execute o programa:
