@@ -59,6 +59,9 @@ Número da tarefa | Título da tarefa | Descrição da tarefa | 0 ou 1, sendo 1 
 
 Desenvolvido por Kauã Sanches
 
+
 Feito com foco em aprendizado, organização e prática de linguagem C
 
 <img width="926" height="428" alt="screenshot" src="https://github.com/user-attachments/assets/c70a7a9e-3f71-4d3d-97fc-a04030b3f35a" />
+
+<img width="512" height="178" alt="pasta" src="https://github.com/user-attachments/assets/859ffb29-b239-4367-bb99-f629d2eb725f" />
