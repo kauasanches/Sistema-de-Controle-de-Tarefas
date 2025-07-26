@@ -44,3 +44,6 @@ Muitas vezes precisamos de um controle de tarefas local, sem depender de aplicat
 
 ## 🧠 Observações
 
+- O arquivo `tarefas.txt` armazena as tarefas no formato:
+`1|Comprar pão|Ir à padaria|0
+2|Estudar C|Fazer exercícios|1`
