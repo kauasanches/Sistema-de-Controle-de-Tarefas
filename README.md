@@ -1,6 +1,6 @@
 # TaskMan – Sistema de Controle de Tarefas 📋💻
 
-**Kauã Rodrigues Sanches - N°21 - 1°D**
+## Kauã Rodrigues Sanches - N°21 - 1°D
 
 **TaskMan** é um sistema simples e funcional de gerenciamento de tarefas feito em linguagem C, com menu interativo via terminal.
 
