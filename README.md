@@ -29,6 +29,7 @@ Muitas vezes precisamos de um controle de tarefas local, sem depender de aplicat
 - 🗑️ Excluir tarefas
 - 🔍 Filtrar tarefas concluídas
 - 💾 Gravar e carregar tarefas em `tarefas.txt`
+- 👉 Foi trocada a função de prazo pela função de conclusão
 
 ---
 
@@ -55,12 +56,9 @@ Número da tarefa | Título da tarefa | Descrição da tarefa | 0 ou 1, sendo 1 
 
 ---
 
-## 📌 Autor
-
 Desenvolvido por Kauã Sanches
 
 
-Feito com foco em aprendizado, organização e prática de linguagem C
 
 <img width="926" height="428" alt="screenshot" src="https://github.com/user-attachments/assets/c70a7a9e-3f71-4d3d-97fc-a04030b3f35a" />
 
