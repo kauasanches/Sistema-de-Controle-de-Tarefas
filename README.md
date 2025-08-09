@@ -1,4 +1,6 @@
-# TaskMan (C) – Gerenciador de Tarefas no Terminal 📋💻
+# TaskMan – Sistema de Controle de Tarefas 📋💻
+
+Kauã Rodrigues Sanches - N°21 - 1°D
 
 **TaskMan** é um sistema simples e funcional de gerenciamento de tarefas feito em linguagem C, com menu interativo via terminal.
 
@@ -55,8 +57,6 @@ Número da tarefa | Título da tarefa | Descrição da tarefa | 0 ou 1, sendo 1 
 2|Estudar C|Fazer exercícios|1
 
 ---
-
-Desenvolvido por Kauã Sanches
 
 
 
